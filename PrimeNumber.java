@@ -7,7 +7,7 @@ public class PrimeNumber {
         int num=sc.nextInt();
         boolean flag=false;
         for(int i=2;i<=num/2;i++){
-            if(i%2==0){
+            if(num%2==0){
                 flag=true;
                 break;
                 

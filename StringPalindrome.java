@@ -7,7 +7,7 @@ public class StringPalindrome {
         String str=sc.nextLine();
 
         String reversestr="";
-        int length=str.length();
+        
         for(int i=str.length()-1;i>=0;--i){
             reversestr=reversestr+str.charAt(i);
         }

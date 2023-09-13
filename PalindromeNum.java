@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class PalindromeNum {
     public static void main(String[]args){
-        Scanner sc=new Scanner(System.in);
+    
         System.out.println("enter a num");
         int num=sc.nextInt();
         int reverse=0;
@@ -20,6 +20,10 @@ public class PalindromeNum {
         else{
             System.out.println(originalnum+" "+"not a palindrome");
         }
+
+
+        
+        
     }
     
 }
